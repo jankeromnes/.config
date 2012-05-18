@@ -1,0 +1,11 @@
+# This is a comment
+         [global_config]
+           focus = system
+
+         [keybindings]
+           full_screen = <Ctrl><Shift>F11
+
+         [profiles]
+           [[default]]
+             background_color = "#000000" # A comment
+             foreground_color = "#00FF00" # Note that hex colour values must be quoted
