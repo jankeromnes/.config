@@ -204,6 +204,7 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey, "Control" }, "r", awesome.restart),
     awful.key({ modkey, "Shift"   }, "q", awesome.quit),
 
+    awful.key({ modkey,           }, "c",     function() awful.util.spawn("google-chrome") end),
     awful.key({ modkey,           }, "l",     function() awful.util.spawn("gnome-screensaver-command -l") end), 
     --awful.key({ modkey,           }, "l",     function () awful.tag.incmwfact( 0.05)    end),
     awful.key({ modkey,           }, "h",     function () awful.tag.incmwfact(-0.05)    end),
